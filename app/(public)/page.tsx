@@ -68,7 +68,7 @@ export default function HomePage() {
       {/* ── HERO ─────────────────────────────────────────────── */}
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1600&q=85"
+          src="/images/hero.jpg"
           alt="Raw honey being poured from a spoon, golden and glistening"
           fill
           priority
@@ -190,7 +190,7 @@ export default function HomePage() {
         <section className="section-pad relative overflow-hidden bg-forest-950">
           <div className="absolute inset-0 opacity-10">
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=60"
+              src="/images/hero.jpg"
               alt=""
               fill
               className="object-cover object-center"
@@ -220,7 +220,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-80 overflow-hidden rounded-3xl lg:h-[480px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1566843972142-a7fcf70a4b83?w=800&q=80"
+                  src="/images/hero.jpg"
                   alt="Beekeeper inspecting frames at Wildwood Honey"
                   fill
                   className="object-cover object-center"
@@ -354,7 +354,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-forest-800 py-24">
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="https://images.unsplash.com/photo-1471943311424-646960669fbc?w=1600&q=60"
+            src="/images/hero.jpg"
             alt=""
             fill
             className="object-cover"

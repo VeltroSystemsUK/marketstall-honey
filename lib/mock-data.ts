@@ -19,9 +19,8 @@ export const MOCK_PRODUCERS: Producer[] = [
     },
     categories: ["honey", "preserves"],
     images: {
-      banner:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80",
-      logo: "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=200&q=80",
+      banner: "/images/hero.jpg",
+      logo: "/images/raw-honey.jpg",
     },
     status: "approved",
     commissionRate: 0,
@@ -167,7 +166,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "pair",
     stock: 54,
     images: [
-      "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=800&q=80",
+      "/images/beeswax-candles.jpg",
     ],
     dietary: [],
     allergens: [],
@@ -271,8 +270,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 850,
         quantity: 2,
         unit: "340g jar",
-        imageUrl:
-          "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
       {
         productId: "prod-5",
@@ -282,8 +280,7 @@ export const MOCK_ORDERS: Order[] = [
         price: 2850,
         quantity: 1,
         unit: "3 × 227g gift box",
-        imageUrl:
-          "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+        imageUrl: "/images/hero.jpg",
       },
     ],
     producerIds: ["producer-1"],
