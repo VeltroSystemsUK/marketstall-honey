@@ -50,8 +50,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "340g jar",
     stock: 148,
     images: [
-      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "/images/raw-honey.jpg",
     ],
     dietary: ["gluten-free", "dairy-free"],
     allergens: [],
@@ -74,7 +73,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "340g jar",
     stock: 42,
     images: [
-      "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&q=80",
+      "/images/honeycomb.jpg",
     ],
     dietary: ["gluten-free", "dairy-free"],
     allergens: [],
@@ -97,7 +96,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "200g box",
     stock: 36,
     images: [
-      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+      "/images/beeswax-candles.jpg",
     ],
     dietary: ["gluten-free", "dairy-free"],
     allergens: [],
@@ -120,7 +119,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "340g jar",
     stock: 95,
     images: [
-      "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80",
+      "/images/mead.jpg",
     ],
     dietary: ["gluten-free", "dairy-free"],
     allergens: [],
@@ -143,7 +142,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "3 × 227g gift box",
     stock: 28,
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "/images/raw-honey.jpg",
     ],
     dietary: ["gluten-free", "dairy-free"],
     allergens: [],
@@ -166,7 +165,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "pair",
     stock: 54,
     images: [
-      "/images/beeswax-candles.jpg",
+      "/images/honeycomb.jpg",
     ],
     dietary: [],
     allergens: [],
@@ -188,7 +187,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "250g jar",
     stock: 67,
     images: [
-      "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&q=80",
+      "/images/beeswax-candles.jpg",
     ],
     dietary: ["gluten-free", "dairy-free", "vegan"],
     allergens: [],
@@ -210,7 +209,7 @@ export const MOCK_PRODUCTS: Product[] = [
     unit: "100g block",
     stock: 80,
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "/images/mead.jpg",
     ],
     dietary: [],
     allergens: [],
