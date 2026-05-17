@@ -1,40 +1,34 @@
-/**
- * site.config.ts — edit this file when deploying for a new client.
- *
- * MODE GUIDE
- * ----------
- * marketplace   Multi-producer platform. Full admin, producer onboarding,
- *               Stripe Connect commission splits. Sell to farmers market
- *               organisers, collectives, or aggregators.
- *
- * single-store  One brand, one producer's products. Direct Stripe checkout
- *               (no commission). Sell to individual farms, bakeries, etc.
- */
-
 import type { SiteConfig } from "@/lib/site-config.types";
 
 const config: SiteConfig = {
-  mode: "marketplace",
+  mode: "single-store",
 
   brand: {
-    name: "MarketStall",
-    tagline: "Your local market, delivered",
+    name: "Wildwood Honey",
+    tagline: "Raw, unfiltered honey from the Sherwood Forest",
     description:
-      "Connecting East Midlands farmers and artisan producers directly with people who love great food. Every order supports a local family.",
-    email: "hello@marketstall.co.uk",
-    location: "East Midlands",
-    foundedYear: 2024,
-    socialInstagram: "https://instagram.com",
-    socialFacebook: "https://facebook.com",
+      "Eighty hives, one family, twelve years of craft. Our raw honey is cold-extracted and never heated — preserving every enzyme, pollen grain, and natural flavour the bees intended.",
+    email: "hello@wildwoodhoney.co.uk",
+    location: "Sherwood Forest, Nottinghamshire",
+    foundedYear: 2012,
+    socialInstagram: "https://instagram.com/wildwoodhoney",
+    socialFacebook: "https://facebook.com/wildwoodhoney",
   },
 
   features: {
-    producerOnboarding: true,
-    adminPanel: true,
-    multiProducer: true,
-    stripeConnect: true,
+    producerOnboarding: false,
+    adminPanel: false,
+    multiProducer: false,
+    stripeConnect: false,
     reviews: true,
   },
+
+  stats: [
+    { value: "80", label: "Active Hives" },
+    { value: "12", label: "Honey Varieties" },
+    { value: "3,200+", label: "Happy Customers" },
+    { value: "Est. 2012", label: "Nottinghamshire" },
+  ],
 };
 
 export default config;
